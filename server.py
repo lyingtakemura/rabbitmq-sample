@@ -11,7 +11,7 @@ def callback(channel, method, properties, body):
     print("CHANNEL", channel)
     print("METHOD", method)
     print("PROPERTIES", dir(properties))
-    print("BODY", str(body))
+    print("BODY", body.decode('utf-8'))
 
 
 channel.basic_consume(queue="logs_queue", on_message_callback=callback, auto_ack=True)
