@@ -18,5 +18,5 @@ twisted = ["twisted"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.12"
-content-hash = "8c34279cc0de5600b684c04804c053018d625919406026acf7c64f821929205e"
+python-versions = "^3.11"
+content-hash = "95ceee6aad63dba3d861b38c27918bdae5b19ee2668ef11dfa3e63fe6ac60522"
