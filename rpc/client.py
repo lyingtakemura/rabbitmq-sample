@@ -26,6 +26,4 @@ channel.basic_publish(
     ),
 )
 
-print("START_CLIENT")
-print("SEND_MESSAGE")
 channel.start_consuming()
